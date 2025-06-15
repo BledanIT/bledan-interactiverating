@@ -14,7 +14,7 @@ const RatingCard = () => {
     }, [])
 
     return (
-        <main className = {`flex flex-col gap-8 justify-between w-[28rem] rounded-3xl m-auto bg-gradient-to-t from-bgMain to-bgSecondary ${isSent ? 'py-12' : 'py-10'} px-10 to-[250%]`}>
+        <main className = {`flex flex-col gap-8 justify-between md:w-[28rem] w-auto rounded-3xl md:m-auto mx-4 my-auto bg-gradient-to-t from-bgMain to-bgSecondary ${isSent ? 'py-12' : 'py-10'} px-10 to-[250%]`}>
             {isSent ?
                 (
                     <>
